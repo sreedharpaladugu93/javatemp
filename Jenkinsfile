@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh label: '', script: 'java --version'
+                sh label: '', script: 'java -version'
             }
         }
         stage('Test') { 
