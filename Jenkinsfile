@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                // 
+                sleep time: 10, unit: 'NANOSECONDS' 
             }
         }
     }
